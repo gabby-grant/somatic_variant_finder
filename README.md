@@ -12,10 +12,12 @@ This tool is particularly useful for researchers working with large cancer genom
 
 ## Installation
 Clone this repository to your local machine:
-
+```
 git clone https://github.com/yourusername/somatic-mutation-finder.git
 cd somatic-mutation-finder
-Requirements
+```
+
+### Requirements
 Python 3.6 or higher
 Standard Python libraries (os, sys, gzip, shutil, glob)
 No additional package installation is required as the script uses only Python built-in libraries.
