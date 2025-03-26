@@ -12,8 +12,9 @@ This tool is particularly useful for researchers working with large cancer genom
 
 ## Installation
 Clone this repository to your local machine:
+
 ```
-git clone https://github.com/yourusername/somatic-mutation-finder.git
+git clone https://github.com/gabby-grant/somatic_variant_finder
 cd somatic-mutation-finder
 ```
 
@@ -27,18 +28,15 @@ Run the script with a single argument - the gene name you want to search for:
 
 ``` python somatic_mutation_finder.py <gene_name> ```
 
-For example:
-
-``` python somatic_mutation_finder.py TP53 ```
-
-Parameters
-`<gene_name>`: The name of the gene you want to search for in the mutation files
+### Parameters:
+`<gene_name>` - The name of the gene you want to search for in the mutation files
 ## How It Works
-The script searches all subdirectories in the current working directory for files with .maf or .mutation extensions
-When it finds directories containing such files, it locates any compressed MAF files (.maf.gz) and copies them to the current directory
-It then decompresses each .maf.gz file and searches for occurrences of the specified gene
-Results are printed to the console, showing the count of gene occurrences in each file
-Example Output
+1. The script searches all subdirectories in the current working directory for files with .maf or .mutation extensions
+2. When it finds directories containing such files, it locates any compressed MAF files (.maf.gz) and copies them to the current directory
+3. It then decompresses each .maf.gz file and searches for occurrences of the specified gene
+4. Results are printed to the console, showing the count of gene occurrences in each file
+   
+## Example Output
 ```
 Searching for gene: TP53
 Copying compressed files from subdirectories...
