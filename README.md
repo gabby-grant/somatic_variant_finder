@@ -1,5 +1,5 @@
 # Somatic Mutation Finder
-A Python utility tool for finding gene mutations in MAF (Mutation Annotation Format) files typically used in cancer genomics research.
+A Python utility tool for finding gene mutations in MAF (Mutation Annotation Format) files typically used in cancer genomics research. A somatic mutation is a genetic alteration that occurs in a body cell (somatic cell) after conception, but not in the germ cells (sperm or egg), and is therefore not inherited by offspring
 
 ## Description
 `somatic_mutation_finder.py` is a tool designed to search through multiple directories for MAF files containing information about somatic mutations, and identify occurrences of a specific gene of interest. The script automates the process of:
