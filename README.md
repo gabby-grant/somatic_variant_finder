@@ -75,11 +75,6 @@ Include more detailed information about the mutations found
 Add filtering options for mutation types
 Implement parallel processing for large datasets
 Add visualization options for results
-## License
-This project is licensed under the  License - see the LICENSE file for details.
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 
 
