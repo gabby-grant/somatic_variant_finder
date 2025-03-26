@@ -4,10 +4,11 @@ A Python utility tool for finding gene mutations in MAF (Mutation Annotation For
 ## Description
 `somatic_mutation_finder.py` is a tool designed to search through multiple directories for MAF files containing information about somatic mutations, and identify occurrences of a specific gene of interest. The script automates the process of:
 
-Finding compressed MAF files in subdirectories
-Copying them to a working directory
-Decompressing them
-Counting occurrences of the specified gene
+1. Finding compressed MAF files in subdirectories
+2. Copying them to a working directory
+3. Decompressing them
+4. Counting occurrences of the specified gene
+
 This tool is particularly useful for researchers working with large cancer genomics datasets such as those from TCGA (The Cancer Genome Atlas) or other cancer sequencing projects.
 
 ## Installation
@@ -56,16 +57,17 @@ Found 8 occurrences of TP53 in sample2.maf
 ## Data Format
 This script works with MAF (Mutation Annotation Format) files, which are tab-delimited files that contain somatic mutation information from cancer sequencing projects. MAF files typically include information such as:
 
-Chromosome
-Start position
-End position
-Reference allele
-Tumor allele
-Gene affected
-Mutation type
-Sample ID
-And many other annotations
-Future Enhancements
+- Chromosome
+- Start position
+- End position
+- Reference allele
+- Tumor allele
+- Gene affected
+- Mutation type
+- Sample ID
+
+## Future Enhancements
+
 Potential future improvements for this tool:
 
 Output results to a CSV or TSV file
