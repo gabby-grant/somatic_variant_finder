@@ -22,7 +22,7 @@ cd somatic-mutation-finder
 ### Requirements
 - Python 3.6 or higher
 - Standard Python libraries (os, sys, gzip, shutil, glob)
-- gdc-client version
+- gdc-client version 1.6.1
 
 ## Usage
 Run the script with a single argument - the gene name you want to search for:
