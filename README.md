@@ -66,15 +66,7 @@ This script works with MAF (Mutation Annotation Format) files, which are tab-del
 - Mutation type
 - Sample ID
 
-## Future Enhancements
 
-Potential future improvements for this tool:
-
-Output results to a CSV or TSV file
-Include more detailed information about the mutations found
-Add filtering options for mutation types
-Implement parallel processing for large datasets
-Add visualization options for results
 
 
 
