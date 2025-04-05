@@ -24,8 +24,8 @@ This tool recursively searches for `.maf.gz` files in a given directory, process
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/somatic-mutation-finder.git
-cd somatic-mutation-finder
+git clone https://github.com/gabby-grant/somatic_mutation_finder.git
+cd somatic_mutation_finder
 ```
 
 Make the script executable:
